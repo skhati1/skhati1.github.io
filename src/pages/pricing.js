@@ -92,7 +92,8 @@ export default class Pricing extends React.Component {
                     <tr style={alignText}>
                         <td>
                             <div style={divRightPad}>
-                                Road Test Sponsorship Fee
+                                Road Test Sponsorship Fee 
+                                <br />(Does not include any RMV fees)
                                 <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the Driving School or RMV Taunton, MA Location
                             </div>
                         </td>
