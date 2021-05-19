@@ -160,7 +160,7 @@ export default function ServicesMain() {
                         <ul>
                             <li>Offered Second Monday of Every Month</li>
                             <li>5:30 PM - 7:30 PM</li>
-                            <li>Offered Online</li>
+                            <li>In Person</li>
                         </ul>
                         <div className="mt-8 md:mt-12">                             
                             <button onClick={() => setChild(true, VIEW.PARENT)} type="button" className={`py-4 px-12 bg-primary hover:bg-primary-darker rounded text-white`}>
