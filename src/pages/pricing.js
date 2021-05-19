@@ -76,12 +76,12 @@ export default class Pricing extends React.Component {
                     <tr><td>&nbsp;</td></tr>
                     <tr style={alignText}>
                         <td style={divRightPad}>12 Hours of Driving Instructions</td>
-                        <td><h3 style={divLeftPad}>$540.00</h3></td>
+                        <td><h3 style={divLeftPad}>$570.00</h3></td>
                     </tr>
                     <tr><td>&nbsp;</td></tr>
                     <tr style={alignText}>
                         <td style={divRightPad}>6 Hours of Driving Lessons</td>
-                        <td><h3 style={divLeftPad}>$270.00</h3></td>
+                        <td><h3 style={divLeftPad}>$285.00</h3></td>
                     </tr>
                     <tr><td>&nbsp;</td></tr>
                     <tr style={alignText}>

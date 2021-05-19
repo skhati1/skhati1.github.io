@@ -23,13 +23,6 @@ import Alert from '@material-ui/lab/Alert';
 export default function Index() {
   return <div>
     <Layout>
-    <div className="container">
-      <Alert severity="info">
-        <p style={{ fontSize: "20px"}}>
-        We are now doing Driver's Ed Class and Parent Class Online! Please register online or call us to reserve a spot! 
-        </p>
-      </Alert>
-    </div>
     <section className="pt-20 md:pt-20">
       <div className="container mx-auto px-8 lg:flex">
 
@@ -86,9 +79,7 @@ export default function Index() {
               <p className="mt-4">
                 Memorial Day Weekend <br />
                 4th Monday of JUN <br />
-                2nd Monday of JUL <br />
                 4th Monday of JUL <br />
-                2nd Monday of AUG <br />
                 4th Monday of AUG
               </p>
             </Card>
@@ -97,7 +88,6 @@ export default function Index() {
             <Card className="mb-8">
               <p className="font-semibold text-xl">Fall Class</p>
               <p className="mt-4">
-                Labor Day Weekend <br />
                 Columbus Day Weekend <br />
                 &nbsp;<br />
                 &nbsp;<br />
