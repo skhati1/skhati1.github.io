@@ -39,7 +39,7 @@ export default function Index() {
           <p className="text-l lg:text-1xl mt-5 font-light">
             ‣ Enrollment is Open For Driver's ED Program.<br />
             ‣ Seats are Limited! Register online or by visiting our office!<br />
-            ‣ Parent Classes Offered Second Monday of every month 5:30 PM - 7:30 PM <em>online</em>. <br />
+            ‣ Parent Classes Offered Second Monday of every month 5:30 PM - 7:30 PM. <br />
           </p>
           <br />
         </div>

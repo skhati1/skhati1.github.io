@@ -58,7 +58,7 @@ const privatePackageOptions = {
     3: "$150.00",
     4: "$200.00",
     5: "$250.00",
-    6: "$270.00"
+    6: "$285.00"
 }
 
 export default function Private({ setChild }) {

@@ -20,7 +20,6 @@ import TimePicker from '../forms/TimePicker'
 import TermsAndConditions from '../../data/policies.pdf'
 import PhoneNumberTextBox from '../forms/PhoneNumberTextBox'
 
-
 import { Alert, AlertTitle } from '@material-ui/lab';
 
 import { VIEW } from '../Constants';
@@ -55,15 +54,6 @@ const useStyles = makeStyles(theme => ({
         width: 200,
     },
 }));
-
-const privatePackageOptions = {
-    1: "$50.00",
-    2: "$100.00",
-    3: "$150.00",
-    4: "$200.00",
-    5: "$250.00",
-    6: "$270.00"
-}
 
 export default function RoadTest({ setChild }) {
     const classes = useStyles();

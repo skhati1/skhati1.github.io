@@ -54,7 +54,7 @@ const useStyles = makeStyles(theme => ({
 const privatePackageOptions = {
     "Full Package": "$699.00",
     "30 Hours Classroom Lessons": "$199.00",
-    "12 Hours Driving Instruction": "$540.00"
+    "12 Hours Driving Instruction": "$570.00"
 }
 
 const classAttendingOptions = {
