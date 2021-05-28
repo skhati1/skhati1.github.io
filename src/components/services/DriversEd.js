@@ -65,10 +65,7 @@ const classAttendingOptions = {
     "Memorial Day Weekend": "Memorial Day Weekend",
     "4th Monday of June": "4th Monday of June",
     "2nd Monday of July": "2nd Monday of July",
-    "4th Monday of July": "4th Monday of July",
-    "2nd Monday of August": "2nd Monday of August",
     "4th Monday of August": "4th Monday of August",
-    "Labor Day Weekend": "Labor Day Weekend",
     "Columbus Day Weekend": "Columbus Day Weekend"
 }
 
