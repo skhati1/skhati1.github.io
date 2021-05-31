@@ -64,7 +64,7 @@ const classAttendingOptions = {
     "April Break": "April Break",
     "Memorial Day Weekend": "Memorial Day Weekend",
     "4th Monday of June": "4th Monday of June",
-    "2nd Monday of July": "2nd Monday of July",
+    "4nd Monday of July": "4nd Monday of July",
     "4th Monday of August": "4th Monday of August",
     "Columbus Day Weekend": "Columbus Day Weekend"
 }
