@@ -12,7 +12,6 @@ export default function Projects() {
         const runner = async () => {
             const res = await GetGithubProjects()
             setRepos(res)
-            console.log(res)
         }
         runner()
     }, [])
@@ -38,12 +37,14 @@ export default function Projects() {
                         <Tab.Content style={contentTextAlign}>
                             <Tab.Pane eventKey="#helloCloud">
                                 <p>A hands-on workshop designed for students of Towson University, along with <a href="https://www.codebyalex.com/" target="_blank" rel="noopener noreferrer">Alex Wilson</a>, about the basics of cloud development using AWS with an emphasis on development in conjunction with DevOps.</p>
-                                <a href="https://github.com/CodeByAlex/HelloCloud"><Button variant="outline-info">Starter Code</Button></a>
+                                <a href="https://github.com/CodeByAlex/HelloCloud"><Button variant="outline-info">Source Code</Button></a>
                             </Tab.Pane>
                             {repos.map(repo =>
                                 <Tab.Pane eventKey={`#${repo.name}`}>
                                     <p>{repo.description ? repo.description : `Check out this project on its own live site!`}</p>
-                                    <Button href={repo.url} variant="outline-info">View Project</Button>
+                                    <Button href={repo.code} variant="outline-info">Source Code</Button>
+                                    &nbsp;
+                                    <Button href={repo.url} variant="outline-info">Live Demo</Button>
                                 </Tab.Pane>
                             )}
                         </Tab.Content>
