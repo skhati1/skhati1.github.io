@@ -24,7 +24,7 @@ export default function Navigation() {
                             placement="right"
                             delay={{ show: 250, hide: 400 }}
                             overlay={renderTooltip}>
-                            <a href="mailto:saurabh@khatiwada.dev" target="_blank" rel="noopener noreferrer"><Button variant="outline-success">Email</Button></a>
+                            <Button href='mailto:saurabh@khatiwada.dev' variant="outline-success">Email</Button>
                         </OverlayTrigger>
                         &nbsp;&nbsp;&nbsp;
                         <a href="https://www.linkedin.com/in/saurabhkhatiwada/" target="_blank" rel="noopener noreferrer" >LinkedIn</a>

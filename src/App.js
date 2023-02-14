@@ -6,7 +6,6 @@ import Navigation from './components/Navigation';
 import Profile from './components/Profile';
 import Projects from './components/Projects';
 import Abilities from './components/Abilities';
-import {Helmet} from "react-helmet";
 
 function App() {
   return (
